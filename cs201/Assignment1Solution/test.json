@@ -1,0 +1,154 @@
+{
+	"schools": [{
+		"name": "USC",
+		"departments": [{
+			"longName": "Computer Science",
+			"prefix": "CSCI",
+			"courses": [{
+				"number": "201",
+				"term": "Summer",
+				"year": "2017",
+				"staffMembers": [{
+						"type": "instructor",
+						"id": "1",
+						"name": {
+							"fname": "Jeffrey",
+							"lname": "Miller"
+						},
+						"email": "jeffrey.miller@usc.edu",
+						"image": "http://www-scf.usc.edu/~csci201/images/jeffrey_miller.jpg",
+						"phone": "213-740-7129",
+						"office": "SAL 342",
+						"officeHours": [{
+								"day": "Monday",
+								"time": {
+									"start": "6:30p.m.",
+									"end": "7:30p.m."
+								}
+							},
+							{
+								"day": "Wednesday",
+								"time": {
+									"start": "7:00p.m.",
+									"end": "8:00p.m."
+								}
+							}
+						]
+					},
+					{
+						"type": "ta",
+						"id": "2",
+						"name": {
+							"fname": "Reem",
+							"lname": "Alfayez"
+						},
+						"email": "alfayez@usc.edu",
+						"image": "http://www-scf.usc.edu/~csci201/images/USC_seal.gif",
+						"office": "SAL Open Lab",
+						"officeHours": [{
+							"day": "Monday",
+							"time": {
+								"start": "1:00p.m.",
+								"end": "3:00p.m."
+							}
+						}]
+					},
+					{
+						"type": "cp",
+						"id": "3",
+						"name": {
+							"fname": "Ninareh",
+							"lname": "Mehrabi"
+						},
+						"email": "ninareh@usc.edu",
+						"image": "http://www-scf.usc.edu/~csci201/images/ninareh_mehrabi.jpg",
+						"office": "SAL Open Lab",
+						"officeHours": [{
+							"day": "Tuesday",
+							"time": {
+								"start": "5:00p.m.",
+								"end": "7:00p.m."
+							}
+						}]
+					},
+					{
+						"type": "grader",
+						"id": "4",
+						"name": {
+							"fname": "Ruth",
+							"lname": "Libowsky"
+						},
+						"email": "libowsky@usc.edu",
+						"image": "http://www-scf.usc.edu/~csci201/images/ruth_libowsky.jpg",
+						"officeHours": [{
+							"day": "By Appointment"
+						}]
+					}
+				],
+				"meetings": [{
+						"type": "lecture",
+						"section": "30201R",
+						"room": "KAP 163",
+						"meetingPeriods": [{
+								"day": "Monday",
+								"time": {
+									"start": "3:30p.m.",
+									"end": "6:30p.m."
+								}
+							},
+							{
+								"day": "Wednesday",
+								"time": {
+									"start": "3:30p.m.",
+									"end": "6:30p.m."
+								}
+							}
+						],
+						"assistants": [{
+							"staffMemberID": "3"
+						}]
+					},
+					{
+						"type": "lab",
+						"section": "30202R",
+						"room": "KAP 163",
+						"meetingPeriods": [{
+								"day": "Monday",
+								"time": {
+									"start": "7:00p.m.",
+									"end": "9:00p.m."
+								}
+							},
+							{
+								"day": "Wednesday",
+								"time": {
+									"start": "7:00p.m.",
+									"end": "9:00p.m."
+								}
+							}
+						],
+						"assistants": [{
+								"staffMemberID": "2"
+							},
+							{
+								"staffMemberID": "3"
+							}
+						]
+					},
+					{
+						"type": "quiz",
+						"section": "30203R",
+						"room": "OFFICE",
+						"meetingPeriods": [{
+							"day": "TBA",
+							"time": {
+								"start": "TBA",
+								"end": "TBA"
+							}
+						}]
+					}
+				]
+			}]
+		}]
+	}]
+}

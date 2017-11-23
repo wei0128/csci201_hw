@@ -1,0 +1,733 @@
+{
+  "schools": [{
+      "name": "Walkerville Elementary",
+      "departments": [{
+        "longName": "Science",
+        "prefix": "SCI",
+        "courses": [{
+            "number": "000",
+            "year": "1994",
+            "term": "Summer",
+            "staffMembers": [{
+                "type": "instructor",
+                "id": "1",
+                "name": {
+                  "fname": "Ms.",
+                  "lname": "Frizzle"
+                },
+                "image": "https://s-media-cache-ak0.pinimg.com/736x/bd/8e/28/bd8e28de2a6282abfe3c8973ec2bbad7--miss-frizzle-costume-school-buses.jpg",
+                "email": "Friz@Walkerville.edu",
+                "phone": "123-456-7895",
+                "office": "SCI 222",
+                "officeHours": [{
+                    "day": "Saturday",
+                    "time": {
+                      "start": "2:00p.m.",
+                      "end": "6:00p.m."
+                    }
+                  },
+                  {
+                    "day": "Sunday",
+                    "time": {
+                      "start": "6:00a.m.",
+                      "end": "9:59a.m."
+                    }
+                  }
+                ]
+              }
+
+            ],
+            "meetings": [{
+                "type": "lecture",
+                "section": "123W",
+                "room": "SchoolBUS 1",
+                "meetingPeriods": [{
+                    "day": "Tuesday",
+                    "time": {
+                      "start": "7:30a.m.",
+                      "end": "1:00p.m."
+                    }
+                  },
+                  {
+                    "day": "Wednesday",
+                    "time": {
+                      "start": "7:30a.m.",
+                      "end": "1:00p.m."
+                    }
+                  }
+                ]
+
+              },
+              {
+                "type": "lab",
+                "section": "124W",
+                "room": "SchoolBUS 2",
+                "meetingPeriods": [{
+                  "day": "Wednesday",
+                  "time": {
+                    "start": "3:52p.m.",
+                    "end": "7:00p.m."
+                  }
+                }]
+              },
+              {
+                "type": "quiz",
+                "section": "00W",
+                "room": "QuizBUS",
+                "meetingPeriods": [{
+                  "day": "Monday",
+                  "time": {
+                    "start": "2:00p.m.",
+                    "end": "3:15p.m."
+                  }
+                }]
+              }
+            ]
+          },
+          {
+            "number": "111",
+            "term": "Summer",
+            "year": "1994",
+            "staffMembers": [{
+                "type": "instructor",
+                "id": "1",
+                "name": {
+                  "fname": "Liz",
+                  "lname": "NA"
+                },
+                "email": "Liz@Walkerville.edu",
+                "image": "https://s-media-cache-ak0.pinimg.com/originals/6b/52/66/6b5266c12e0a9b1a5e365d67e3ec182a.jpg",
+                "phone": "000-000-0000",
+                "office": "SchoolBUS 1",
+                "officeHours": [{
+                    "day": "Friday",
+                    "time": {
+                      "start": "1:30p.m.",
+                      "end": "2:00p.m."
+                    }
+                  },
+                  {
+                    "day": "Wednesday",
+                    "time": {
+                      "start": "4:00p.m.",
+                      "end": "8:20p.m."
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "ta",
+                "id": "2",
+                "name": {
+                  "fname": "Dorothy",
+                  "lname": "Ann"
+                },
+                "email": "Ann@Walkerville.edu",
+                "image": "http://www.behindthevoiceactors.com/_img/chars/dorothy-ann-the-magic-school-bus-7.44.jpg",
+                "office": "TBA",
+                "officeHours": [{
+                  "day": "TBA",
+                  "time": {
+                    "start": "TBA",
+                    "end": "TBA"
+                  }
+                }]
+              },
+              {
+                "type": "cp",
+                "id": "3",
+                "name": {
+                  "fname": "Keesha",
+                  "lname": "Franklin"
+                },
+                "email": "KFranklin@Walkerville.edu",
+                "image": "http://www.behindthevoiceactors.com/_img/chars/keesha-franklin-the-magic-school-bus-1.67.jpg",
+                "office": "Town SchoolBUS",
+                "officeHours": [{
+                  "day": "Monday",
+                  "time": {
+                    "start": "8:10a.m.",
+                    "end": "10:33a.m."
+                  }
+                }]
+              },
+              {
+                "type": "grader",
+                "id": "4",
+                "name": {
+                  "fname": "Arnold",
+                  "lname": "Perlstein"
+                },
+                "email": "ArnPerl@Walkerville.edu",
+                "image": "https://vignette3.wikia.nocookie.net/tvfan/images/4/4b/Msb_mtrs08.png/revision/latest?cb=20160401211550",
+                "officeHours": [{
+                  "day": "Sunday",
+                  "time": {
+                    "start": "7:10a.m.",
+                    "end": "8:10a.m."
+                  }
+                }]
+              }
+            ],
+            "meetings": [{
+                "type": "lecture",
+                "section": "131W",
+                "room": "SchoolBUS3",
+                "meetingPeriods": [{
+                    "day": "Monday",
+                    "time": {
+                      "start": "3:30p.m.",
+                      "end": "6:30p.m."
+                    }
+                  },
+                  {
+                    "day": "Wednesday",
+                    "time": {
+                      "start": "4:30p.m.",
+                      "end": "9:30p.m."
+                    }
+                  }
+                ],
+                "assistants": [{
+                  "staffMemberID": "3"
+                }]
+              },
+              {
+                "type": "lab",
+                "section": "137W",
+                "room": "SchoolBUS2",
+                "meetingPeriods": [{
+                    "day": "Monday",
+                    "time": {
+                      "start": "7:00p.m.",
+                      "end": "9:00p.m."
+                    }
+                  },
+                  {
+                    "day": "Wednesday",
+                    "time": {
+                      "start": "7:00a.m.",
+                      "end": "11:00a.m."
+                    }
+                  }
+                ],
+                "assistants": [{
+                    "staffMemberID": "2"
+                  },
+                  {
+                    "staffMemberID": "4"
+                  }
+                ]
+
+              },
+              {
+                "type": "quiz",
+                "section": "11W",
+                "room": "OFFICE",
+                "meetingPeriods": [{
+                  "day": "TBA",
+                  "time": {
+                    "start": "TBA",
+                    "end": "TBA"
+                  }
+                }]
+              }
+            ]
+          }
+
+        ]
+      }]
+    },
+    {
+      "name": "Wayside School",
+      "departments": [{
+          "longName": "First Wayside",
+          "prefix": "FW",
+          "courses": [{
+              "number": "101",
+              "term": "Fall",
+              "year": "2017",
+              "staffMembers": [{
+                  "type": "instructor",
+                  "id": "1",
+                  "name": {
+                    "fname": "Mrs.",
+                    "lname": "Jewls"
+                  },
+                  "email": "jwels@wayside.edu",
+                  "image": "http://vignette3.wikia.nocookie.net/p__/images/e/ed/Waysidemsjewls.jpg/revision",
+                  "phone": "222-333-4444",
+                  "office": "C1",
+                  "officeHours": [{
+                      "day": "Tuesday",
+                      "time": {
+                        "start": "2:00p.m.",
+                        "end": "4:30p.m."
+                      }
+                    },
+                    {
+                      "day": "Thursday",
+                      "time": {
+                        "start": "5:00p.m.",
+                        "end": "7:30p.m."
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "ta",
+                  "id": "2",
+                  "name": {
+                    "fname": "Myron",
+                    "lname": "Wayside"
+                  },
+                  "email": "Myron@wayside.edu",
+                  "image": "http://vignette2.wikia.nocookie.net/wayside/images/4/46/Character_large_332x363_myron.jpg/revision/latest?cb=20110504055216",
+                  "office": "C2",
+                  "officeHours": [{
+                    "day": "Monday",
+                    "time": {
+                      "start": "1:00p.m.",
+                      "end": "3:00p.m."
+                    }
+                  }]
+                },
+                {
+                  "type": "cp",
+                  "id": "3",
+                  "name": {
+                    "fname": "Dana",
+                    "lname": "Wayside"
+                  },
+                  "email": "Dana@wayside.edu",
+                  "image": "https://vignette3.wikia.nocookie.net/wayside/images/b/bf/Character_large_332x363_dana.jpg/revision/latest?cb=20110504055202",
+                  "office": "C3",
+                  "officeHours": [{
+                    "day": "Tuesday",
+                    "time": {
+                      "start": "5:00p.m.",
+                      "end": "7:00p.m."
+                    }
+                  }]
+                }
+              ],
+              "meetings": [{
+                  "type": "lecture",
+                  "section": "30201R",
+                  "room": "C1",
+                  "meetingPeriods": [{
+                      "day": "Monday",
+                      "time": {
+                        "start": "1:30p.m.",
+                        "end": "3:30p.m."
+                      }
+                    },
+                    {
+                      "day": "Wednesday",
+                      "time": {
+                        "start": "3:30p.m.",
+                        "end": "6:30p.m."
+                      }
+                    }
+                  ],
+                  "assistants": [{
+                    "staffMemberID": "3"
+                  }]
+                },
+                {
+                  "type": "lab",
+                  "section": "30202R",
+                  "room": "C4",
+                  "meetingPeriods": [{
+                      "day": "Monday",
+                      "time": {
+                        "start": "7:00p.m.",
+                        "end": "9:00p.m."
+                      }
+                    },
+                    {
+                      "day": "Wednesday",
+                      "time": {
+                        "start": "7:00p.m.",
+                        "end": "9:00p.m."
+                      }
+                    }
+                  ],
+                  "assistants": [{
+                      "staffMemberID": "2"
+                    },
+                    {
+                      "staffMemberID": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "quiz",
+                  "section": "30203R",
+                  "room": "C2",
+                  "meetingPeriods": [{
+                    "day": "Monday",
+                    "time": {
+                      "start": "7:30a.m.",
+                      "end": "9:00a.m."
+                    }
+                  }]
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "longName": "Second Wayside",
+          "prefix": "SW",
+          "courses": [{
+              "number": "201",
+              "year": "2017",
+              "term": "Fall",
+              "staffMembers": [{
+                "type": "instructor",
+                "id": "1",
+                "name": {
+                  "fname": "Mr.",
+                  "lname": "Gorf"
+                },
+                "image": "https://vignette4.wikia.nocookie.net/wayside/images/2/23/Just_Desserts.jpg/revision/latest?cb=20100208222058",
+                "email": "Gorf@wayside.edu",
+                "phone": "123-444-0000",
+                "office": "C2",
+                "officeHours": [{
+                    "day": "Saturday",
+                    "time": {
+                      "start": "2:20p.m.",
+                      "end": "2:21p.m."
+                    }
+                  },
+                  {
+                    "day": "Sunday",
+                    "time": {
+                      "start": "6:00a.m.",
+                      "end": "6:01a.m."
+                    }
+                  }
+                ]
+
+              }],
+              "meetings": [{
+                  "type": "lecture",
+                  "section": "1111E",
+                  "room": "C1",
+                  "meetingPeriods": [{
+                      "day": "Friday",
+                      "time": {
+                        "start": "8:30a.m.",
+                        "end": "1:30p.m."
+                      }
+                    },
+                    {
+                      "day": "Wednesday",
+                      "time": {
+                        "start": "9:30a.m.",
+                        "end": "1:30p.m."
+                      }
+                    }
+                  ]
+
+                },
+                {
+                  "type": "lab",
+                  "section": "2222E",
+                  "room": "C2",
+                  "meetingPeriods": [{
+                    "day": "Wednesday",
+                    "time": {
+                      "start": "3:52p.m.",
+                      "end": "7:00p.m."
+                    }
+                  }]
+                },
+                {
+                  "type": "quiz",
+                  "section": "3333E",
+                  "room": "C4",
+                  "meetingPeriods": [{
+                    "day": "Friday",
+                    "time": {
+                      "start": "2:00p.m.",
+                      "end": "3:00p.m."
+                    }
+                  }]
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+
+    },
+    {
+      "name": "Hogwarts",
+      "departments": [{
+        "longName": "Transfiguration",
+        "prefix": "TF",
+        "courses": [{
+            "number": "1",
+            "term": "Summer",
+            "year": "2017",
+            "staffMembers": [{
+                "type": "instructor",
+                "id": "1",
+                "name": {
+                  "fname": "Albus",
+                  "lname": "Dumbledore"
+                },
+                "email": "dumbledore@hogwarts.edu",
+                "image": "https://images.pottermore.com/bxd3o8b291gf/5ocauY6zAsqGiIgeECw06e/8accc1c586d2be7d9de6a3d9aec37b90/AlbusDumbledore_WB_F1_DumbledoreSmiling_Still_080615_Port.jpg?w=1024",
+                "phone": "111-111-1111",
+                "office": "Class 1",
+                "officeHours": [{
+                    "day": "Monday",
+                    "time": {
+                      "start": "2:00p.m.",
+                      "end": "6:00p.m."
+                    }
+                  },
+                  {
+                    "day": "Wednesday",
+                    "time": {
+                      "start": "6:00a.m.",
+                      "end": "9:00a.m."
+                    }
+                  },
+                  {
+                    "day": "Friday",
+                    "time": {
+                      "start": "6:00a.m.",
+                      "end": "9:00a.m."
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "ta",
+                "id": "2",
+                "name": {
+                  "fname": "Draco",
+                  "lname": "Malfoy"
+                },
+                "email": "malfoy@hogwarts.edu",
+                "image": "https://images.pottermore.com/bxd3o8b291gf/2EykcsjRssY8aiKCgGgO2U/67c28c246b5c7f146f755d8bd225d0e4/DracoMalfoy_WB_F8_DracoMalfoyPromoShot_Promo_100615_Port.jpg?w=1200",
+                "office": "Middle Courtyard",
+                "officeHours": [{
+                  "day": "Wednesday",
+                  "time": {
+                    "start": "2:00p.m.",
+                    "end": "4:00p.m."
+                  }
+                }]
+              }
+            ],
+            "meetings": [{
+                "type": "lecture",
+                "section": "11111R",
+                "room": "Class 34",
+                "meetingPeriods": [{
+                  "day": "Monday",
+                  "time": {
+                    "start": "9:30a.m.",
+                    "end": "11:45a.m."
+                  }
+                }]
+              },
+              {
+                "type": "lab",
+                "section": "2222R",
+                "room": "Class 99",
+                "meetingPeriods": [{
+                  "day": "Thursday",
+                  "time": {
+                    "start": "1:00p.m.",
+                    "end": "4:00p.m."
+                  }
+                }]
+              },
+              {
+                "type": "quiz",
+                "section": "30041R",
+                "room": "Class 1B",
+                "meetingPeriods": [{
+                  "day": "Friday",
+                  "time": {
+                    "start": "10:00p.m.",
+                    "end": "11:50p.m."
+                  }
+                }]
+              }
+            ]
+
+          },
+          {
+            "number": "2",
+            "term": "Fall",
+            "year": "2017",
+            "staffMembers": [{
+                "type": "instructor",
+                "id": "1",
+                "name": {
+                  "fname": "Minerva",
+                  "lname": "McGonagall"
+                },
+                "email": "mcgonagall@hogwarts.edu",
+                "image": "https://s-media-cache-ak0.pinimg.com/originals/5d/8a/e5/5d8ae52306075d08a152061d163cba8a.jpg",
+                "phone": "222-222-2222",
+                "office": "Class 1",
+                "officeHours": [{
+                  "day": "Monday",
+                  "time": {
+                    "start": "6:00p.m.",
+                    "end": "7:00p.m."
+                  }
+                }]
+              },
+              {
+                "type": "ta",
+                "id": "2",
+                "name": {
+                  "fname": "Ron",
+                  "lname": "Weasley"
+                },
+                "email": "weasley@hogwarts.edu",
+                "image": "https://typeset-beta.imgix.net/rehost%2F2016%2F9%2F13%2F556a0b44-17b5-429c-8954-2dc926bfbc70.jpg",
+                "office": "Middle Courtyard",
+                "officeHours": [{
+                  "day": "Tuesday",
+                  "time": {
+                    "start": "4:00p.m.",
+                    "end": "7:00p.m."
+                  }
+                }]
+              },
+              {
+                "type": "grader",
+                "id": "4",
+                "name": {
+                  "fname": "Harry",
+                  "lname": "Potter"
+                },
+                "email": "potter@hogwarts.edu",
+                "image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2013/09/12/101029496--sites-default-files-images-101029496-3176173-1748009911-hp.jp-1.jpg?v=1474281478",
+                "office": "Middle Courtyard",
+                "officeHours": [{
+                  "day": "Friday",
+                  "time": {
+                    "start": "5:00p.m.",
+                    "end": "7:00p.m."
+                  }
+                }]
+              },
+              {
+                "type": "cp",
+                "id": "3",
+                "name": {
+                  "fname": "Hermione",
+                  "lname": "Granger"
+                },
+                "email": "granger@hogwarts.edu",
+                "image": "https://s-media-cache-ak0.pinimg.com/736x/f7/69/76/f76976238b56095265fd410ad3c3c13b--emma-watson-hermione-granger-harry-potter-hermione-granger.jpg",
+                "office": "Middle Courtyard",
+                "officeHours": [{
+                  "day": "Monday",
+                  "time": {
+                    "start": "5:00p.m.",
+                    "end": "7:00p.m."
+                  }
+                }]
+              },
+              {
+                "type": "ta",
+                "id": "2",
+                "name": {
+                  "fname": "Neville",
+                  "lname": "Longbottom"
+                },
+                "email": "longbottom@hogwarts.edu",
+                "image": "https://typeset-beta.imgix.net/rehost%2F2016%2F9%2F13%2F63171e21-96d6-4980-8395-27ac6437b67f.jpg",
+                "officeHours": [{
+                  "day": "Tuesday",
+                  "time": {
+                    "start": "10:00a.m.",
+                    "end": "12:00p.m."
+                  }
+                }]
+              }
+            ],
+            "meetings": [{
+                "type": "lecture",
+                "section": "33333R",
+                "room": "Class 1",
+                "meetingPeriods": [{
+                    "day": "Monday",
+                    "time": {
+                      "start": "3:30p.m.",
+                      "end": "6:30p.m."
+                    }
+                  },
+                  {
+                    "day": "Wednesday",
+                    "time": {
+                      "start": "3:30p.m.",
+                      "end": "6:30p.m."
+                    }
+                  }
+                ],
+                "assistants": [{
+                  "staffMemberID": "3"
+                }]
+              },
+              {
+                "type": "lab",
+                "section": "35454R",
+                "room": "Class 1B",
+                "meetingPeriods": [{
+                    "day": "Saturday",
+                    "time": {
+                      "start": "7:00p.m.",
+                      "end": "9:00p.m."
+                    }
+                  },
+                  {
+                    "day": "Wednesday",
+                    "time": {
+                      "start": "7:00p.m.",
+                      "end": "9:00p.m."
+                    }
+                  }
+                ],
+                "assistants": [{
+                    "staffMemberID": "2"
+                  },
+                  {
+                    "staffMemberID": "3"
+                  }
+                ]
+              },
+              {
+                "type": "quiz",
+                "section": "34343R",
+                "room": "Class 99",
+                "meetingPeriods": [{
+                  "day": "TBA",
+                  "time": {
+                    "start": "TBA",
+                    "end": "TBA"
+                  }
+                }]
+              }
+            ]
+          }
+        ]
+      }]
+    }
+  ]
+}

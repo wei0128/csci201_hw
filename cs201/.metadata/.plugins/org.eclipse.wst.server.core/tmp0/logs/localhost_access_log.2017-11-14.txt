@@ -1,0 +1,10 @@
+127.0.0.1 - - [14/Nov/2017:22:25:02 -0800] "GET / HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:22:25:04 -0800] "GET / HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:22:25:05 -0800] "GET /favicon.ico HTTP/1.1" 404 1080
+127.0.0.1 - - [14/Nov/2017:22:42:28 -0800] "GET / HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:22:42:29 -0800] "GET /wjeng_CSCI201L_Assignment3/index.jsp HTTP/1.1" 200 702
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:22:42:40 -0800] "POST /wjeng_CSCI201L_Assignment3/webServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:22:42:40 -0800] "GET /wjeng_CSCI201L_Assignment3/home.jsp HTTP/1.1" 200 25347
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:22:42:40 -0800] "GET /wjeng_CSCI201L_Assignment3/style1.css HTTP/1.1" 200 1067
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:22:42:43 -0800] "GET /wjeng_CSCI201L_Assignment3/lectures.jsp HTTP/1.1" 200 34250
+0:0:0:0:0:0:0:1 - - [14/Nov/2017:22:42:48 -0800] "GET /wjeng_CSCI201L_Assignment3/searchTopic.jsp?term=intr HTTP/1.1" 200 19

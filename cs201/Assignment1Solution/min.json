@@ -1,0 +1,189 @@
+{
+	"schools": [{
+		"name": "USC",
+		"departments": [{
+			"longName": "Computer Science",
+			"prefix": "CSCI",
+			"courses": [{
+					"number": "104",
+					"term": "Summer",
+					"year": "2017",
+					"staffMembers": [{
+						"type": "instructor",
+						"id": "1",
+						"name": {
+							"fname": "Mark",
+							"lname": "Redekopp"
+						},
+						"email": "redekopp@usc.edu",
+						"image": "https://viterbi.usc.edu/directory/images/d7499ac4eb012f37d46058d2ab768b6d.jpg",
+						"phone": "213-740-6006",
+						"office": "EEB 222",
+						"officeHours": [{
+								"day": "Monday",
+								"time": {
+									"start": "12:00p.m.",
+									"end": "2:00p.m."
+								}
+							},
+							{
+								"day": "Wednesday",
+								"time": {
+									"start": "8:00a.m.",
+									"end": "9:15a.m."
+								}
+							}
+						]
+					}],
+					"meetings": [{
+							"type": "lecture",
+							"section": "30039R",
+							"room": "KAP 163",
+							"meetingPeriods": [{
+									"day": "Monday",
+									"time": {
+										"start": "9:30a.m.",
+										"end": "11:45a.m."
+									}
+								},
+								{
+									"day": "Wednesday",
+									"time": {
+										"start": "9:30a.m.",
+										"end": "11:45a.m."
+									}
+								}
+							]
+						},
+						{
+							"type": "lab",
+							"section": "30040R",
+							"room": "SAL 127",
+							"meetingPeriods": [{
+								"day": "Wednesday",
+								"time": {
+									"start": "2:00p.m.",
+									"end": "3:50p.m."
+								}
+							}]
+						},
+						{
+							"type": "quiz",
+							"section": "30041R",
+							"room": "OFFICE",
+							"meetingPeriods": [{
+								"day": "TBA",
+								"time": {
+									"start": "TBA",
+									"end": "TBA"
+								}
+							}]
+						}
+					]
+				},
+				{
+					"number": "201",
+					"term": "Summer",
+					"year": "2017",
+					"staffMembers": [{
+							"type": "instructor",
+							"id": "1",
+							"name": {
+								"fname": "Jeffrey",
+								"lname": "Miller"
+							},
+							"officeHours": [
+							]
+						},
+						{
+							"type": "ta",
+							"id": "2",
+							"name": {
+								"fname": "Reem",
+								"lname": "Alfayez"
+							}
+						},
+						{
+							"type": "cp",
+							"id": "3",
+							"name": {
+								"fname": "Ninareh",
+								"lname": "Mehrabi"
+							},
+							"email": "ninareh@usc.edu",
+							"image": "http://www-scf.usc.edu/~csci201/images/ninareh_mehrabi.jpg",
+							"office": "SAL Open Lab",
+							"officeHours": [{
+								"day": "Tuesday",
+								"time": {
+									"start": "5:00p.m.",
+									"end": "7:00p.m."
+								}
+							}]
+						},
+						{
+							"type": "grader",
+							"id": "4",
+							"name": {
+								"fname": "Ruth",
+								"lname": "Libowsky"
+							},
+							"email": "libowsky@usc.edu",
+							"image": "http://www-scf.usc.edu/~csci201/images/ruth_libowsky.jpg",
+							"officeHours": [{
+								"day": "By Appointment"
+							}]
+						}
+					],
+					"meetings": [{
+							"type": "lecture",
+							"section": "30201R",
+							"meetingPeriods": [
+							]
+						},
+						{
+							"type": "lab",
+							"section": "30202R"
+						},
+						{
+							"type": "lab",
+							"section": "30222R",
+							"room": "KAP 200",
+							"meetingPeriods": [{
+									"day": "Thursday",
+									"time": {
+										"start": "7:00p.m.",
+										"end": "9:00p.m."
+									}
+								},
+								{
+									"day": "Friday",
+									"time": {
+										"start": "7:00p.m.",
+										"end": "9:00p.m."
+									}
+								}
+							],
+							"assistants": [{
+									"staffMemberID": "2"
+								}
+							]
+						},
+						{
+							"type": "quiz",
+							"section": "30203R",
+							"room": "OFFICE",
+							"meetingPeriods": [{
+								"day": "TBA",
+								"time": {
+									"start": "TBA",
+									"end": "TBA"
+								}
+							}]
+						}
+					]
+				}
+			]
+		}]
+	}]
+}

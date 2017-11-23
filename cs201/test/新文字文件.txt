@@ -1,0 +1,107 @@
+for(int i = 0; i < staffList.size(); i++){
+					            		List<OfficeHours> oh = staffList.get(i).getOfficeHours();
+					            		for(int j = 0; j < oh.size(); j++){
+					            			if(oh.get(j).getDay().equals("Monday")){
+					            				if(oh.get(j).getTime().getStart().equals("10:00a.m.")){
+					            					officeHours[0][0] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("12:00p.m.")){
+					            					officeHours[1][0] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("2:00p.m.")){
+					            					officeHours[2][0] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("4:00p.m.")){
+					            					officeHours[3][0] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("6:00p.m.")){
+					            					officeHours[4][0] = staffList.get(i);
+					            				}
+					            			}
+					            			else if(oh.get(j).getDay().equals("Tuesday")){
+					            				if(oh.get(j).getTime().getStart().equals("10:00a.m.")){
+					            					officeHours[0][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("12:00p.m.")){
+					            					officeHours[1][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("2:00p.m.")){
+					            					officeHours[2][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("4:00p.m.")){
+					            					officeHours[3][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("6:00p.m.")){
+					            					officeHours[4][1] = staffList.get(i);
+					            				}
+					            			}
+					            			else if(oh.get(j).getDay().equals("Tuesday")){
+					            				if(oh.get(j).getTime().getStart().equals("10:00a.m.")){
+					            					officeHours[0][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("12:00p.m.")){
+					            					officeHours[1][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("2:00p.m.")){
+					            					officeHours[2][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("4:00p.m.")){
+					            					officeHours[3][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("6:00p.m.")){
+					            					officeHours[4][1] = staffList.get(i);
+					            				}
+					            			}
+					            			else if(oh.get(j).getDay().equals("Tuesday")){
+					            				if(oh.get(j).getTime().getStart().equals("10:00a.m.")){
+					            					officeHours[0][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("12:00p.m.")){
+					            					officeHours[1][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("2:00p.m.")){
+					            					officeHours[2][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("4:00p.m.")){
+					            					officeHours[3][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("6:00p.m.")){
+					            					officeHours[4][1] = staffList.get(i);
+					            				}
+					            			}
+					            			else if(oh.get(j).getDay().equals("Tuesday")){
+					            				if(oh.get(j).getTime().getStart().equals("10:00a.m.")){
+					            					officeHours[0][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("12:00p.m.")){
+					            					officeHours[1][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("2:00p.m.")){
+					            					officeHours[2][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("4:00p.m.")){
+					            					officeHours[3][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("6:00p.m.")){
+					            					officeHours[4][1] = staffList.get(i);
+					            				}
+					            			}
+					            			else if(oh.get(j).getDay().equals("Tuesday")){
+					            				if(oh.get(j).getTime().getStart().equals("10:00a.m.")){
+					            					officeHours[0][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("12:00p.m.")){
+					            					officeHours[1][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("2:00p.m.")){
+					            					officeHours[2][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("4:00p.m.")){
+					            					officeHours[3][1] = staffList.get(i);
+					            				}
+					            				else if(oh.get(j).getTime().getStart().equals("6:00p.m.")){
+					            					officeHours[4][1] = staffList.get(i);
+					            				}
+					            			}
+					            		}
+					            	}
